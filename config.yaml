@@ -1,0 +1,24 @@
+# config.yaml
+global_settings:
+  python_exe: "/home/ubuntu/uv-envs/torch-env/bin/python"
+  input_path: "Bellevue_150th_Eastgate_clip.mp4"
+  nsys_report_dir: "profile_result/experiment_1"
+
+workers:
+  - id: "worker_0_vit"
+    model-name: "vit_b_16"
+    core-bind: "4-5"
+    prep-level: "complex"
+    batch-size: 2
+    enable-compile: true
+    prep-on-gpu: true
+    infer-on-gpu: true
+
+  - id: "worker_1_resnet"
+    model-name: "resnet50"
+    core-bind: "6-7"
+    prep-level: "medium"
+    batch-size: 4
+    enable-compile: false
+    prep-on-gpu: true
+    infer-on-gpu: true
