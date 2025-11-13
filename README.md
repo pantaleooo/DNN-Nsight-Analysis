@@ -244,10 +244,15 @@ python frame_extract/image_annotator.py \
 ---
 
 ## 📄 许可证
+本项目基于 **MIT 许可证** 开源，您可以自由使用、修改和分发本项目的代码，前提是遵守以下条款：
 
-[在此添加许可证信息]
+1. 在所有副本或衍生作品中保留原始的版权声明和许可证文本；
+2. 作者和项目贡献者不对本项目的使用提供任何担保，不承担因使用本项目导致的任何责任。
+
+完整的许可证文本可查看：[MIT License](https://opensource.org/licenses/MIT)
 
 ---
 
 **Date**: November 13, 2025  
 **Code**: https://github.com/your-org/your-repo
+
